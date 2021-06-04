@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" 
+    rel="stylesheet">
+    <script src=js/script.js></script>
+    
+</head>
+<body>
+
+  <div class="content" id="demo">
+  <button type="button" onclick="change()" id="myButton">Hi! My name is Megan! :)</button>
+  <img src="https://i.pinimg.com/originals/a1/77/d1/a177d14a13dcafcece06c9e7ce77c7d1.gif">
+  </div>
+
+  <div class="buttonList">
+  <button type="button" class="btn btn-dark" onclick="location.href='https://www.instagram.com/yangmegs/'">Instagram</button>
+  <button type="button" class="btn btn-dark" onclick="location.href='https://www.linkedin.com/in/yangmegan/'">LinkedIn</button>
+  </div>
+
+</body>
+<script>
+
+  function change(){
+    document.getElementById("demo").innerHTML = "SIKE";
+  }
+
+
+</script>
+</html>
+
+<style>
+
+  body{
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+  }
+
+    .content button{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    padding: 20px 45px;
+    background-color: #E29578;
+    border: 5px #E29578;
+    border-style: solid;
+    border-radius: 25px;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 200px;
+    margin-left: 450px;
+      margin-right: 250px;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 125px;
+      padding-bottom: 125px;
+}
+
+.content img{
+  margin-left: 1000px;
+  margin-top: -375px;
+}
+
+.buttonList{
+margin-top: 25px;
+margin-left: 540px;
+}
+
+</style>
